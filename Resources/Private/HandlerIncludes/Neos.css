@@ -1,0 +1,75 @@
+body {
+	color: #fff;
+	background-color: #141414;
+}
+
+.frames-container {
+	background-color: #222;
+}
+
+.frame {
+	background-color: #222;
+}
+
+.frame.active {
+	background-color: #999;
+	color: #fff;
+}
+
+.frame-index {
+	color: #3f3f3f;
+}
+
+.frame-class {
+	color: #00b5ff;
+}
+
+.active .frame-class {
+	color: #ff460d;
+}
+
+.details-container {
+	background: #222;
+}
+
+.frame-code {
+	padding: 0;
+	background-color: #999;
+}
+
+.frame-code .frame-file {
+	border: 0px none;
+	border-radius: 0;
+}
+
+pre.prettyprint, code.prettyprint {
+	background: #141414;
+}
+
+.frame-comments {
+	border: 0px none;
+	border-radius: 0;
+}
+
+header {
+	background: #141414;
+}
+
+.details {
+	border-left: 5px solid #000000;
+}
+
+.data-table {
+	margin: 0 0 15px 0;
+}
+
+.data-table-container label {
+	color: #00b5ff;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: 1px dotted #00b5ff;
+}
+
+.data-table td:first-child {
+	color: #adadad;
+}

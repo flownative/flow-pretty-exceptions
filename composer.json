@@ -1,0 +1,14 @@
+{
+    "name": "flownative/prettyexceptions",
+    "type": "typo3-flow-package",
+    "description": "Pretty, informative exception handler for Flow, based on Whoops.",
+    "require": {
+        "typo3/flow": "*",
+        "filp/whoops": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flownative\\PrettyExceptions\\": "Classes"
+        }
+    }
+}
