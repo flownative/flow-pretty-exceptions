@@ -3,7 +3,8 @@
     "type": "typo3-flow-package",
     "description": "Pretty, informative exception handler for Flow, based on Whoops.",
     "require": {
-        "typo3/flow": "*",
+        "php": "^5.5",
+        "typo3/flow": "^3.0",
         "filp/whoops": "^1.1"
     },
     "autoload": {
