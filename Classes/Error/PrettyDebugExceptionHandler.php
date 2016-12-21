@@ -2,7 +2,7 @@
 namespace Flownative\PrettyExceptions\Error;
 
 /*
- * This file is part of the TYPO3.Flow package.
+ * This file is part of the Neos.Flow package.
  *
  * (c) Contributors of the Neos Project - www.neos.io
  *
@@ -11,12 +11,12 @@ namespace Flownative\PrettyExceptions\Error;
  * source code.
  */
 
-use TYPO3\Flow\Annotations as Flow;
-use TYPO3\Flow\Core\Bootstrap;
-use TYPO3\Flow\Error\DebugExceptionHandler;
-use TYPO3\Flow\Security\Account;
-use TYPO3\Flow\Security\Context;
-use TYPO3\Flow\Utility\Environment;
+use Neos\Flow\Annotations as Flow;
+use Neos\Flow\Core\Bootstrap;
+use Neos\Flow\Error\DebugExceptionHandler;
+use Neos\Flow\Security\Account;
+use Neos\Flow\Security\Context;
+use Neos\Flow\Utility\Environment;
 use Whoops\Handler\PrettyPageHandler;
 use Whoops\Run;
 
